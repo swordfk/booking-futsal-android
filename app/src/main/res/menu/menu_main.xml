@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/action_lokasi"
+        android:title="Futsal di Pekalongan"
+        app:showAsAction="never"/>
+    <item
+        android:id="@+id/action_kontak"
+        android:title="Kontak"
+        app:showAsAction="never"/>
+</menu>

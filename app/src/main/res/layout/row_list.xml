@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="5dp"
+    android:orientation="horizontal"
+    android:background="#BBBABA">
+    <ImageView
+        android:id="@+id/image"
+        android:layout_width="130dp"
+        android:layout_height="100dp"
+        android:src="@drawable/futsal"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:orientation="vertical"
+        android:layout_marginLeft="5dp"
+        android:gravity="center_vertical">
+        <TextView
+            android:id="@+id/nama"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:textSize="23sp"
+            android:text="xxx"
+            android:textColor="#000"
+            android:layout_marginBottom="10dp"/>
+        <Button
+            android:id="@+id/lokasi"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Lokasi"
+            android:background="@drawable/kotak3"/>
+    </LinearLayout>
+</LinearLayout>
